@@ -15,6 +15,7 @@ public class ArrayAsin {
         for (int i = 0; i < numbers.length; i++) {
             numbers[i] = scanner.nextInt();
         }
+        // No need to close the scanner here if we plan to use it again later
     }
 
     // Display the array
